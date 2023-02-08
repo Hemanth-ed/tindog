@@ -1,0 +1,134 @@
+#title{
+    background-color: #ff4c68;
+    color: white;
+}
+h1{
+    font-family: 'Montserrat-Black', sans-serif;
+    line-height: 1.5;
+    font-size: 3.5em;
+    font-weight: 900;
+}
+.container-fluid{
+    padding: 3%  15% 7%;
+}
+.imag{
+    transform: rotate(25deg);
+    width: 23%;
+    position: absolute;
+    right: 25%;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar{
+    padding:0 0 4.5rem;
+}
+.navbar-brand{
+    font-family: 'ubuntu';
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+.nav-item{
+    padding: 0px 18px;
+}
+.nav-link{
+    font-family: 'Montserrat-light';
+    font-size: 1.2rem;
+}
+.dwnbtn{
+    margin: 5% 3% 5% 0%;
+}
+#features{ 
+    padding:7% 15% ;
+    font-family: 'ubuntu';
+    background-color: #ffffff;
+    position: relative;
+}
+.fbox{
+    text-align: center;
+    padding: 5%;
+}
+h3{
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 1.4rem;
+}
+.ico{
+    color: #ff4c68;
+}
+.ico:hover{
+    color: #ff072c;
+}
+
+/* testimonials */
+#testimonials{
+    
+    text-align: center;
+    background-color:#ff4c68 ;
+    color: #ffffff;
+}
+
+h2{
+    font-family:'Montserrat' ;
+    font-size: 3rem;
+    line-height: 1.3;
+    font-weight: 900;
+}
+
+.timg{
+    border-radius: 100%;
+    width: 15%;
+    margin: 20px;
+}
+
+/* press */
+#press{
+    background-color:#ff4c68 ;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.plogo{
+width: 15%;
+margin: 20px 20px 50px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+#pricing{
+    padding: 100px;
+}
+.card-itm{
+    text-align: center;
+    padding: 3% 2%;
+}
+
+@media(max-width:1020px){
+    .imag{
+        transform: rotate(0);
+        position: static;
+        width: 30%;
+    }
+    #title{
+        text-align: center;
+    }
+}
+.cta-div{
+    text-align: center;
+    background-color: #ff4c68;
+    color: #ffffff;
+    font-family:'Montserrat' ;
+    padding: 3% 10%;
+    margin: 0px 25%;
+}
+#footer{
+    padding: 7% 3%;
+    text-align: center;
+    font-size: small;
+}
+.footer-font{
+    padding: 0.5em;
+    color: black;
+}
